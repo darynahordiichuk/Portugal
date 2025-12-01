@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Економічна безпека Португалії</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body class="page-security">
+<header class="site-header slide-down">
+    <div class="container header-inner">
+        <div class="logo">Portugal<span>Secure</span></div>
+        <nav class="main-nav" id="mainNav">
+            <a href="index.html" class="nav-link">Резюме</a>
+            <a href="security.html" class="nav-link active">Економічна безпека країни</a>
+            <a href="threats.html" class="nav-link">Загрози та протидія</a>
+        </nav>
+        <button class="burger" id="burgerBtn" aria-label="Меню">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<main class="page-content fade-in">
+    <section class="section">
+        <div class="container">
+            <h1>Короткий огляд економічної безпеки Португалії</h1>
+            <p>
+                На основі аналізу показників за 2013–2024&nbsp;рр. можна зробити висновок, що економічна безпека Португалії має змішаний характер. 
+                З одного боку, виробнича та демографічна безпека є відносно стійкими: урожайність зернових демонструє висхідний тренд, а очікувана тривалість життя 
+                стабільно перебуває на оптимальному рівні. З іншого боку, продовольча та енергетична безпека залишаються проблемними: рівень імпортної залежності 
+                у паливно-енергетичному комплексі та низька самозабезпеченість зерном, молоком і м’ясом свідчать про високі ризики.
+            </p>
+            <p>
+                Зовнішньоекономічна безпека за показником відкритості економіки перебуває на незадовільному рівні, що робить країну вразливою до зовнішніх шоків, 
+                хоча водночас Португалія нарощує частку експорту у ВВП. Інвестиційно-інноваційна безпека є незадовільною, але спостерігається позитивна динаміка 
+                зростання частки чистого приросту прямих іноземних інвестицій. Соціальна безпека характеризується значною диференціацією доходів, проте тенденція 
+                до зниження децильного коефіцієнта фондів вказує на поступове пом’якшення нерівності.
+            </p>
+            <p>
+                Загалом Португалія демонструє поєднання сильних демографічних і виробничих позицій із суттєвими викликами в енергетичній, продовольчій, 
+                зовнішньоекономічній та соціальній сферах. Для підвищення рівня економічної безпеки країні необхідно зменшувати імпортозалежність, 
+                посилювати продовольчу самодостатність, а також розвивати інноваційну економіку та механізми соціальної підтримки.
+            </p>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container">
+            <h2>Інтерактивні графіки ключових показників</h2>
+            <p class="section-intro">
+                Нижче наведені динамічні графіки, створені на основі статистичних даних щодо виробничої, демографічної, енергетичної, 
+                зовнішньоекономічної, інвестиційної, продовольчої та соціальної безпеки Португалії.
+            </p>
+
+            
+<div class="charts-grid">
+    <div class="chart-card"><h3>Виробнича безпека</h3><canvas id="productionChart"></canvas></div>
+    <div class="chart-card"><h3>Демографічна безпека</h3><canvas id="lifeChart"></canvas></div>
+    <div class="chart-card"><h3>Енергетична безпека</h3><canvas id="energyChart"></canvas></div>
+    <div class="chart-card"><h3>Зовнішньоекономічна безпека</h3><canvas id="tradeChart"></canvas></div>
+    <div class="chart-card"><h3>Інвестиційна безпека</h3><canvas id="investmentChart"></canvas></div>
+    <div class="chart-card"><h3>Соціальна безпека</h3><canvas id="socialChart"></canvas></div>
+    
+</div>
+
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>© 2025 Дарина Гордійчук • Економічна безпека Португалії</p>
+    </div>
+</footer>
+</body>
+</html>
